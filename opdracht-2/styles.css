@@ -1,0 +1,95 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+body{
+    max-width: 1200px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+
+.one1{
+    justify-content: flex-end;
+    width: 340px;
+    height: 200px;
+    position: relative;
+    left: -15px;
+    bottom: -75px;
+}
+
+.one2{
+    justify-content: flex-end;
+    width: 340px;
+    height: 100px;
+    position: relative;
+    left: -15px;
+    top: 20px;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+}
+
+.two4{
+    flex-grow: 1;
+    justify-content: flex-end;
+
+}
+
+.three{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    margin: 20px;
+}
+
+.three4{
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+label{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    top: 35px;
+}
+
+.five{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+article{
+    flex-basis: 300px;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+
+
+
+
